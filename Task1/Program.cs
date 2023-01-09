@@ -14,26 +14,24 @@ namespace Task1
 {
     class Filter
     {
-        string checkCorr;
+        string checkCorrect;
         string replaceData;
 
-        Filter(string checkCorr, string replaceData)
+        public Filter(string checkCorrect, string replaceData)
         {
-            this.checkCorr = checkCorr;
+            this.checkCorrect = checkCorrect;
             this.replaceData = replaceData;
         }
 
-        string CheckCorrectInputData(string inputData)
-        {            
-            checkCorr = @"^(\d*?(\d)\s+\S+\s+)\2\s+";
-            
-            Regex regexp = new Regex(checkCorr);
+        public string CheckCorrectInputData(string inputData)
+        {
+            Regex regexp = new Regex(checkCorrect);     
 
             if (!regexp.IsMatch(inputData))
                 return inputData;
             else
             {
-                return new Regex(checkCorr).Replace(inputData, "$1"); 
+                return regexp.Replace(inputData, replaceData); 
             }                       
         }        
     }
@@ -42,6 +40,12 @@ namespace Task1
         static void Main(string[] args)
         {
             string inputAddress = "140002 ЛЮБЕРЦЫ 2 ОКТЯБРЬСКИЙ ПР 123/4-115";
+            string regexp = @"^(\d*?(\d)\s+\S+\s+)\2\s+";
+            string replacement = "$1";
+
+            Filter filter = new Filter(regexp, replacement);
+            
+            Console.WriteLine(filter.CheckCorrectInputData(inputAddress));
 
             Console.ReadLine();
         }
