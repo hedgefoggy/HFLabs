@@ -41,9 +41,7 @@ namespace Task1
     {
         static void Main(string[] args)
         {
-            string inputAddress = "140002 ЛЮБЕРЦЫ 2 ОКТЯБРЬСКИЙ ПР 123/4-115";
-
-            Console.ReadLine();
+            string inputAddress = "140002 ЛЮБЕРЦЫ 2 ОКТЯБРЬСКИЙ ПР 123/4-115";            
         }
     }
 }
