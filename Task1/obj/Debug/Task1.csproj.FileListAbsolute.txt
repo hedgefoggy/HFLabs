@@ -1,0 +1,8 @@
+C:\Users\home\Desktop\code\c#\Practicum\HFLabs\Task1\bin\Debug\Task1.exe.config
+C:\Users\home\Desktop\code\c#\Practicum\HFLabs\Task1\bin\Debug\Task1.exe
+C:\Users\home\Desktop\code\c#\Practicum\HFLabs\Task1\bin\Debug\Task1.pdb
+C:\Users\home\Desktop\code\c#\Practicum\HFLabs\Task1\obj\Debug\Task1.csproj.AssemblyReference.cache
+C:\Users\home\Desktop\code\c#\Practicum\HFLabs\Task1\obj\Debug\Task1.csproj.SuggestedBindingRedirects.cache
+C:\Users\home\Desktop\code\c#\Practicum\HFLabs\Task1\obj\Debug\Task1.csproj.CoreCompileInputs.cache
+C:\Users\home\Desktop\code\c#\Practicum\HFLabs\Task1\obj\Debug\Task1.exe
+C:\Users\home\Desktop\code\c#\Practicum\HFLabs\Task1\obj\Debug\Task1.pdb
