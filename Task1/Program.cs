@@ -1,14 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Text.RegularExpressions;
-using static System.Net.Mime.MediaTypeNames;
-using System.Net;
-using System.Security.Cryptography;
-using System.Security.Claims;
-
 
 namespace Task1
 {
